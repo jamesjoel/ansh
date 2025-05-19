@@ -8,13 +8,55 @@
         11 v5
 
         1. Textbox
+        2. Password
+        3. Radio Button
+        4. Checkbox
+        5. Textarea
+        6. Select-Option
+        7. File
+        8. Button
+        9. Reset
+        10. Submit
+        11. Hidden
 
 
      -->
     <body>
         <h1>Form in HTML</h1>
         <form>
-            <input type="text" />
+            Full Name <input type="text" />
+            <br />
+            <br />
+            Password <input type="password" />
+            <br />
+            <br />
+            <!-- make sure you have to group the radio button -->
+            Gender <input type="radio" name="gender"/> Male
+                    <input type="radio" name="gender"/>Female
+            <br />
+            <br />
+            Hobby <input type="checkbox" />Cricket
+             <input type="checkbox" />Music
+             <input type="checkbox" />Internet
+             <br />
+             <br />
+             Address <textarea></textarea>
+             <br />
+             <br />
+             City <select>
+                    <option>Indore</option>
+                    <option>Mumbai</option>
+                    <option>Pune</option>
+                    <option>Delhi</option>
+                </select>
+            <br />
+            <br />
+            File <input type="file" />
+            <input type="button" value="OK"/>
+            <input type="reset" value="Clear" />
+            <input type="submit" value="Save" />
+            <input type="hidden" />
+                
         </form>
     </body>
 </html>
