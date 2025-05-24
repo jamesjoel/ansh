@@ -1,0 +1,46 @@
+/*
+
+Selectors : 
+
+    1. Simple Selector
+        a. name
+        b. id (#)     --- id couldnt be repeat on the same page
+        c. class (.)   --- if you want the repeat on the same page
+
+    2. Combination Selector
+        a. space ( )
+        b. child (>)
+        c. adjacent (+)
+        d. sibling (~)
+        
+
+    3. Pseudo Selector
+
+    
+
+*/
+/*
+h1{
+    color: blue;
+}
+p{
+    background-color: yellow;
+    font-size: 25px;
+}
+*/
+
+#a{
+    color : red;
+}
+#b{
+    color: blue;
+}
+
+.x{
+    background-color: green;
+    font-size: 20px;
+}
+.y{
+    background-color: yellow;
+    font-size: 25px;
+}
