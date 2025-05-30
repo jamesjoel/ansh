@@ -1,0 +1,37 @@
+body{
+    /* hexa-decimal code */
+    background-color: rgb(156, 58, 242);
+    /* RBG color codes */
+}
+
+#box{
+    font-size: 20px;
+}
+
+#box p > i{
+    background-color: red;
+}
+
+#box ~ h1{
+    background-color: white;
+}
+
+
+/*
+    1 simple selector 
+        name
+        id (#)
+        class(.)
+
+    2 combination selector
+        space ( )
+            select all tag inside of perticular tag
+        child ( > )
+            select all first child tag inside of perticular tag
+        adjacent ( + )
+            select first tag immediately following of perticular tag
+        sibling ( ~ )
+            select all tag immediately following of perticular tag
+  
+*/
+
