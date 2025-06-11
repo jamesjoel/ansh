@@ -17,10 +17,37 @@ body{
 .navbar ul li a{
     color: #fff !important;
 }
+.navbar .nav .nav-item .nav-link:hover{
+    background-color: rgba(0, 0, 0, .8);
+}
+.dropdown .dropdown-menu{
+    background-color: rgba(46, 7, 63, .5);
+}
+.dropdown .dropdown-menu .dropdown-item:hover{
+    background-color: rgba(0, 0, 0, .8);
+    color: #fff;
+}
 .hero{
     min-height: 400px;
 }
 .hero-section{
     min-height: 200px;
     background-color: rgba(0, 0, 0, .5);
+}
+.bg-purple{
+    background-color: #A294F9;
+}
+.main .card-body:hover{
+    cursor : pointer;
+    background-color: #000;
+    
+}
+.bg-black{
+    background-color: #000;
+}
+.section .nav .nav-item .nav-link{
+    color : #fff;
+}
+.section .nav .nav-item .nav-link:hover{
+    background-color: #A294F9;
 }
